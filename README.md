@@ -12,6 +12,19 @@ This utility was created as a TUI application for Linux with reference to [RWEve
     - This is the latest fmem kernel module that implements Write function in the existing fmem.
 2. Run `rw-tui` as root privileges
 
+# How to compile
+  ```sh
+  cd rw-tui
+
+  mkdir -p build
+
+  cd build
+
+  cmake ..
+
+  make
+  ```
+
 # Features supported
 - Output the memory area as a table and change the value
 - Output configuration space MMIO area of PCI device as table
